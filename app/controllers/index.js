@@ -193,3 +193,9 @@ function readJsonUrl(){
 	// win.open();
 }
 
+// Function Image and zIndex
+function imagezIndex(){
+	var viewImage = Alloy.createController('imagezIndex', {}).getView();
+	viewImage.open();
+}
+

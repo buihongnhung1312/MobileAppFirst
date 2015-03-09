@@ -1,11 +1,7 @@
 var listwin = function(_data, _title){
     var tableView = Ti.UI.createTableView({
         objName: 'table',
-        font: { 
-       		fontSize: '20' 
-    	}, 
-    	height: '40',
-    	color: "lime"
+    	backgroundColor: "orange"
     });
     
     var tableData = [];
@@ -13,7 +9,12 @@ var listwin = function(_data, _title){
         var row = Ti.UI.createTableViewRow({
             objName: 'listwinRow',
             rowIndex: i,
-            title: _data[i]
+            title: _data[i],
+            hasChild: 'true',
+            color: 'white',
+            font: {
+            	fontSize: '20'
+            }
         });
         tableData.push(row);
     }
@@ -22,6 +23,9 @@ var listwin = function(_data, _title){
     tableView.addEventListener('click', function(e){
         if(e.source.objName == 'listwinRow'){
             var row = e.source;
+            var Detail = require('ui/detail');
+            var detail = new Detail(row.title, row.title);
+            detail.open();
         }
     });
     

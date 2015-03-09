@@ -47,6 +47,15 @@
 	backgroundColor: 'orange'
 }
 
+"#btnimageZindex": {
+	top: '70',
+	right: '10',
+	borderColor: 'green',
+	borderWidth: '2',
+	borderRadius: '5',
+	backgroundColor: 'orange'
+}
+
 "#btnproceedFile": {
 	top: '10',
 	right: '10',

@@ -18,6 +18,7 @@
                     <Button id = "btnproceedFile"  onClick="proceedFile" title="Read File"></Button>
                     <Button id="btncreateWeb"  onClick="createwebView" title="Create WebView"></Button>
                     <Button id="btnreadJsonUrl"  onClick="readJsonUrl" title="Create Json Url"></Button>
+                    <Button id="btnimageZindex"  onClick="imagezIndex" title="Image & zIndex"></Button>
                 </Window>
             </Tab>
             <Tab title="Tab 4" icon="/images/load.png">
