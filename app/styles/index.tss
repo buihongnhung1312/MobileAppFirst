@@ -1,0 +1,88 @@
+".container": {
+	// backgroundColor:"white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"TableViewRow[platform=android]": { 
+    font: { 
+       fontSize: '20' 
+    }, 
+    height: '40',
+    color: "lime"
+}
+
+
+"#txtreadFile": {
+	font: { 
+       fontSize: '24'      
+    }, 
+	color: 'blue',
+	top: '10',
+	left: '10',
+}
+
+"#tbg": {
+	
+}
+
+"#tab3": {
+	
+}
+
+"#tab4": {
+	
+}
+
+"#btnDeleteAll": {
+	top: '10',
+	left: '120',
+	borderColor: 'lime',
+	borderWidth: '2',
+	borderRadius: '5',
+	backgroundColor: 'orange'
+}
+
+"#btnproceedFile": {
+	top: '10',
+	right: '10',
+	borderColor: 'blue',
+	borderWidth: '2',
+	borderRadius: '5',
+	backgroundColor: 'orange'
+}
+
+"#btncreateWeb": {
+	top: '70',
+	left: '10',
+	borderColor: 'purple',
+	borderWidth: '2',
+	borderRadius: '5',
+	backgroundColor: 'orange'
+}
+
+"#win3": {
+	
+}
+
+"#btnreadJsonUrl": {
+	top: '140',
+	left: '10',
+	borderColor: 'purple',
+	borderWidth: '2',
+	borderRadius: '5',
+	backgroundColor: 'orange'
+}
+
+"#btnAddbook": {
+	top: '10',
+    left: '10',
+    borderColor: 'red',
+    borderWidth: '2',
+    borderRadius: '5',
+    backgroundColor: 'orange'
+}

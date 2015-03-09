@@ -1,0 +1,22 @@
+
+".container" : {
+	backgroundColor: 'brown'
+}
+
+"#titleLabel": {
+	top: '10',
+	left: '10',
+	font: {
+		fontSize: '24'
+	},
+	color: 'orange'
+}
+
+"#authorLabel": {
+	top: '70',
+	left: '10',
+	font: {
+		fontSize: '24'
+	},
+	color: 'orange'
+}

@@ -1,0 +1,20 @@
+
+".container" : {
+	backgroundColor: 'orange'
+}
+
+"#titleInput": {
+	color: '#000'
+}
+
+"#authorInput": {
+	color: '#000'
+}
+
+"#insertBookButton": {
+	font: {
+		fontSize: '24'
+	},
+	backgroundColor: 'white',
+	color: 'purple'
+}

@@ -1,0 +1,48 @@
+<Alloy>
+	
+	<Collection src="book"/>
+	<TabGroup backgroundColor="white" >
+            <Tab id = "tbg" title="Tab 1" icon="/images/load.png">
+                <Window class="container">
+		
+					<!-- <TextArea id="txtreadFile"></TextArea> -->
+					<Label id ="txtreadFile"></Label>
+					<!-- <ImageView image="/images/load.png"></ImageView> -->
+		
+				</Window>
+            </Tab>
+            <Tab title="Tab 2" icon="/images/load.png">
+                <Window title="Tab 2">
+                    <Button id = "btnAddbook" onClick="addBook" title="Add book"></Button>
+                    <Button id = "btnDeleteAll"  onClick="deleteAll" title="Delete All"></Button>
+                    <Button id = "btnproceedFile"  onClick="proceedFile" title="Read File"></Button>
+                    <Button id="btncreateWeb"  onClick="createwebView" title="Create WebView"></Button>
+                    <Button id="btnreadJsonUrl"  onClick="readJsonUrl" title="Create Json Url"></Button>
+                </Window>
+            </Tab>
+            <Tab title="Tab 4" icon="/images/load.png">
+                <Window title="Tab 4" id = "tab4">
+                    
+                </Window>
+            </Tab>
+            <Tab id="tab3" title="Tab 3" icon="/images/load.png">
+                <Window id="win3" title="Tab 3">
+                	                	
+                    <TableView dataCollection="book">
+                    	
+            			<TableViewRow hasChild="true" title="{title}" author="{author}" onClick="detailsBook"></TableViewRow>
+        			</TableView>
+        			
+        			<Menu platform="android">
+    <!-- Cannot specify node text.  Use attributes only. -->
+    					<MenuItem
+        					title="Add book"
+        					onClick="addBook"
+        					showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" />
+					</Menu>
+        			
+                </Window>
+            </Tab>
+            <!-- Use the Require tag to include external Ti.UI.Tab views -->
+        </TabGroup>	
+</Alloy>
